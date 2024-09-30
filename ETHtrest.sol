@@ -2,8 +2,8 @@ pragma solidity >=0.8.2 <0.9.0;
 
 contract Token
 {
-  string public token_name = "META";
-  string public token_abbry = "MTA";
+  string public token_name = "ALPHA";
+  string public token_abbry = "ALP";
   uint public total_supply = 0;
 
   mapping(address => uint)public balances;
